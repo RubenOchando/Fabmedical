@@ -24,7 +24,7 @@ env:
 # Jobs define the actions that take place when code is pushed to the main branch
 jobs:
   build-and-publish-docker-image:
-    name: Build and Push Docker Image
+    name: Build and Push DockerImage
     runs-on: ubuntu-latest
     steps:
     # Checkout the repo
